@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "CreateOphirStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_ophirStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "OsGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_numberOfOphirWorkers",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ophirStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "OsStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ophirStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract OphirStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ophir departmental Contract/OphirStorageManager.sol": "OphirStorageManager"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ophir departmental Contract/OphirStorage.sol": {
+			"keccak256": "0xf0ddfe795accac579202c8e4e338dd6f50190c751a680ae37e88fa0dbeb24ec4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://28fcc98a7fb8753bf10beb7e154deb9601e3859449be08f22cd65f3cf8f353ce",
+				"dweb:/ipfs/QmVfRrL3ZG7iukpq4H7UgWfbbSU8HhQKbekAQbMZ21kJLE"
+			]
+		},
+		"Ophir departmental Contract/OphirStorageManager.sol": {
+			"keccak256": "0x0f8fd18cc0edcb1f06e1b39b9d7ffa151589a53b9480341fe2cd618c66aac4b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3af5ab55af04abf33878d4908d8c8399ae8a1dc758e84ede393c83c23332367b",
+				"dweb:/ipfs/QmTcgnNfHz48uXU8vFetBhYLhWcGoNBb6bB9gmv211Gqer"
+			]
+		}
+	},
+	"version": 1
+}

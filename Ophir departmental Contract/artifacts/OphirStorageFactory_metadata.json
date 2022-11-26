@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ophir departmental Contract/OphirStorageFactory.sol": "OphirStorageFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ophir departmental Contract/OphirStorage.sol": {
+			"keccak256": "0x957025fade04e9bdfc50310142f5648c2bacc4cbcf4bd82317fb409b8714ab72",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe923408a164567f6b12d89277d341bb88ea95ff7c5eee790283aadc27c5abb9",
+				"dweb:/ipfs/QmfLMRqWYY9im2s4kBqL1EuFKsUiixTEMfMW4vd4sDoFhP"
+			]
+		},
+		"Ophir departmental Contract/OphirStorageFactory.sol": {
+			"keccak256": "0xe8ceef0bb7a991629828d332a7c6a7c997cdda5874ad2da9568b3848132ffe18",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://56e1c70f738a9493ad064e68b65d1c041d278bfdcdc3fed205f05b3afaa07a51",
+				"dweb:/ipfs/QmZUWb83c8mMNRD72L1o1ZbCatUW5hHFVA2wu8K2riwLQa"
+			]
+		}
+	},
+	"version": 1
+}
